@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+---
+layout: splash
+permalink: /
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.35"
+  actions:
+    - label: "Download CV"
+      url: "/assets/pdf/CV_Farhat_Binte_Azam.pdf"
+    - label: "Publications"
+      url: "/publications/"
+    - label: "Research"
+      url: "/research/"
+intro:
+  - excerpt: "I build **deployable, trustworthy AI systems** that transform real-world sensing data into actionable intelligence for **public-health decision-making**."
+feature_row:
+  - image_path: /assets/img/feature1.jpg
+    alt: "Research"
+    title: "Research"
+    excerpt: "Computer Vision, Trustworthy/Explainable AI, Edge-to-Cloud AI Systems, Public Health AI, Citizen Science."
+    url: "/research/"
+    btn_label: "Explore research"
+    btn_class: "btn--primary"
+  - image_path: /assets/img/feature2.jpg
+    alt: "Publications"
+    title: "Publications"
+    excerpt: "Peer-reviewed work including **Scientific Reports (Nature Portfolio)**, **Artificial Intelligence in Medicine**, and **Insects**."
+    url: "/publications/"
+    btn_label: "See publications"
+    btn_class: "btn--primary"
+  - image_path: /assets/img/feature3.jpg
+    alt: "Software"
+    title: "Software & Data"
+    excerpt: "Code, datasets, and reproducibility artifacts for end-to-end sensing + ML pipelines."
+    url: "/software/"
+    btn_label: "View resources"
+    btn_class: "btn--primary"
+---
 
-You can use the [editor on GitHub](https://github.com/FarhatBuet14/FarhatBuet14.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+## In brief
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- **Postdoctoral Scholar**, University of South Florida (USF)  
+- **Research areas:** Computer Vision • Trustworthy/Explainable AI (XAI) • Edge-to-Cloud AI Systems • Public Health AI • Citizen Science  
+- **Evidence:**S:** 10+ publications; 1 U.S. patent application; collaborations and deployments with public-health partners  
 
-### Markdown
+## Selected publications
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. **Classifying stages in the gonotrophic cycle of mosquitoes from images using computer vision techniques.** *Scientific Reports* (Nature Portfolio), 2023.  
+2. **Cardiac anomaly detection considering an additive noise and convolutional distortion model of heart sound recordings.** *Artificial Intelligence in Medicine*, 2022.  
+3. **Integrating global citizen science platforms to enable next-generation surveillance of invasive and vector mosquitoes.** *Insects*, 2022. *(Best Paper Award)*  
+4. **Artificial intelligence and community science as a solution for enhanced global surveillance of invasive malaria mosquito *Anopheles stephensi*: Madagascar case study.** *Insects*, 2025.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/FarhatBuet14/FarhatBuet14.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+{% include feature_row %}
