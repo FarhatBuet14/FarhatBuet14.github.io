@@ -1,1 +1,80 @@
-theme: jekyll-theme-slate
+title: "Farhat Binte Azam"
+name: "Farhat Binte Azam"
+description: "Deployable, trustworthy AI for public-health sensing."
+url: "https://farhatazam.com"
+baseurl: ""
+repository: ""
+
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-feed
+
+# SEO / social
+locale: "en-US"
+timezone: "America/New_York"
+twitter:
+  username: ""
+
+# Author info shown in sidebar and elsewhere
+author:
+  name: "Farhat Binte Azam"
+  avatar: "/assets/img/avatar.jpg"
+  bio: "Postdoctoral Scholar (AI Research & Engineering), University of South Florida. Computer Vision • Trustworthy/Explainable AI • Edge-to-Cloud AI Systems • Public Health AI • Citizen Science."
+  location: "Tampa, FL"
+  email: "farhatb14@gmail.com"
+  links:
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:farhatb14@gmail.com"
+
+# Site UI
+minimal_mistakes_skin: "air"
+search: true
+
+# Navigation
+nav:
+  - title: "Menu"
+    children:
+      - title: "Home"
+        url: /
+      - title: "Research"
+        url: /research/
+      - title: "Publications"
+        url: /publications/
+      - title: "Software & Data"
+        url: /software/
+      - title: "Teaching"
+        url: /teaching/
+      - title: "Service & Talks"
+        url: /service/
+      - title: "CV"
+        url: /cv/
+      - title: "Contact"
+        url: /contact/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      toc: false
+      toc_sticky: false
+
+# Exclude
+exclude:
+  - README.md
+  - LICENSE
