@@ -23,16 +23,20 @@
 }
 
 /* ---- GMOD big image: constrain width inside the card ---- */
+/* ---- GMOD big image: much smaller + always contained ---- */
 .page__content .kearney-card.software-card .soft-media {
-  max-width: 820px;            /* <-- controls how big the big screenshot can get */
-  margin: 14px auto 6px auto;  /* center it */
+  max-width: 420px;            /* <<< smaller (was 820) */
+  margin: 14px auto 6px auto;
 }
 
 .page__content .kearney-card.software-card .soft-media img {
   width: 100% !important;
-  max-width: 820px !important; /* same as container */
+  max-width: 420px !important; /* <<< match container */
+  max-height: 260px !important;/* <<< stops tall images */
+  object-fit: contain !important;
   border-radius: 6px;
 }
+
 
 /* ---- mosquitoID row images: make them smaller + uniform ---- */
 .page__content .kearney-card.software-card .soft-media-row {
@@ -46,10 +50,11 @@
 /* force consistent tile-like thumbnails */
 .page__content .kearney-card.software-card .soft-media-row img {
   width: 100% !important;
-  height: 170px !important;     /* <-- THIS is what makes them “smaller” like Carney’s */
-  object-fit: cover !important; /* crop nicely instead of making them huge */
+  height: 70px !important;      /* <<< smaller (was 170) */
+  object-fit: cover !important;
   border-radius: 6px;
 }
+
 
 /* Responsive: on small screens stack nicely */
 @media (max-width: 900px) {
