@@ -10,7 +10,7 @@ permalink: /software/
 
   <p>
     Artificial intelligence (AI) tools for citizen scientists and mosquito control personnel to identify the species and gonotrophic stage of larval and adult mosquitoes using smartphone photos, in collaboration with the Chellappan lab.
-    <span class="software-meta">(Nelson et al 2024; Azam et al 2023; Carney et al 2022; Minakshi et al 2020a,b).</span>
+    <span class="software-meta">(Nelson et al 2024; Azam et al 2023; Carney et al 2022; Minakshi et al 2020).</span>
   </p>
 
   <p class="software-meta">

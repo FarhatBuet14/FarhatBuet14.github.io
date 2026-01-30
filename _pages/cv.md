@@ -12,6 +12,7 @@ author_profile: false
   <iframe
     src="/assets/pdfs/CV_Farhat_Binte_Azam.pdf#view=FitH"
     title="CV"
-    loading="lazy">
+    loading="lazy"
+    style="width:100%; height:80vh; border:0;">
   </iframe>
 </div>
