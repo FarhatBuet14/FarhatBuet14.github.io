@@ -5,31 +5,22 @@ permalink: /software/
 layout: hero-page
 ---
 
+<style>
+/* Hide the auto page title rendered by the hero-page layout */
+.k-page-title { display: none !important; }
+</style>
+
 <div class="kearney-card">
 
-<p>
-  <span class="soft-title soft-title--green"><strong>Global Mosquito Observations Dashboard (GMOD)</strong></span>:
-  interactive map dashboard for visualizing and downloading mosquito data from citizen science platforms
-  iNaturalist, Mosquito Alert, and NASA’s GLOBE Observer. (Carney et al. 2022; Uelmen et al. 2023).
-  NSF grant #2014547.&nbsp;
-  <a class="soft-link" href="https://mosquitodashboard.org" target="_blank" rel="noopener">mosquitodashboard.org</a>
-</p>
+<p><strong style="color:#33d17a;">Global Mosquito Observations Dashboard (GMOD)</strong>: interactive map dashboard for visualizing and downloading mosquito data from citizen science platforms iNaturalist, Mosquito Alert, and NASA’s GLOBE Observer. (Carney et al. 2022; Uelmen et al. 2023). NSF grant #2014547. <a href="https://mosquitodashboard.org" target="_blank" rel="noopener">mosquitodashboard.org</a></p>
 
 <div class="soft-media">
-  <img class="soft-img--featured"
+  <img class="soft-img-large"
        src="{{ '/assets/img/software/gmod.jpg' | relative_url }}"
        alt="GMOD screenshot">
 </div>
 
-<hr class="soft-sep">
-
-<p>
-  <span class="soft-title soft-title--green"><strong>mosquitoID.org</strong></span>:
-  artificial intelligence (AI) tools for citizen scientists and mosquito control personnel to identify species
-  and gonotrophic stage of larval and adult mosquitoes using smartphone photos (Nelson et al. 2024; Azam et al. 2023; Carney et al. 2022; Minakshi et al. 2020a,b).
-  NSF grant #2014547; patents US 12,147,504 and pending.&nbsp;
-  <a class="soft-link" href="https://mosquitoid.org" target="_blank" rel="noopener">mosquitoID.org</a><span class="soft-muted"> (beta)</span>
-</p>
+<p><strong style="color:#62a0ea;">mosquitoID.org</strong>: artificial intelligence (AI) tools for citizen scientists and mosquito control personnel to identify species and gonotrophic stage of larval and adult mosquitoes using smartphone photos, in collaboration with the Chellappan lab. (Nelson et al. 2024; Azam et al. 2023; Carney et al. 2022; Minakshi et al. 2020a,b). NSF grant #2014547; patents US 12,147,504 and pending. <a href="https://mosquitoid.org" target="_blank" rel="noopener">mosquitoID.org</a> (beta)</p>
 
 <div class="soft-media-row">
   <img class="soft-img-small"
@@ -43,25 +34,19 @@ layout: hero-page
        alt="Explainability example output">
 </div>
 
-<hr class="soft-sep">
-
-<p>
-  <span class="soft-title soft-title--green"><strong>Digitomy Trap Annotate</strong></span>:
-  a web tool for reviewing and annotating mosquito-trap image captures, including fast labeling workflows for
-  trap collections and AI-assisted views (e.g., localized mosquito detections from the edge-to-cloud pipeline).&nbsp;
-  <a class="soft-link" href="https://digitomy.tech/" target="_blank" rel="noopener">digitomy.tech</a>
-</p>
+<p><strong style="color:#62a0ea;">Digitomy Trap Annotate</strong>: a web tool for reviewing and annotating mosquito-trap image captures, including fast labeling workflows for trap collections and AI-assisted views (e.g., localized mosquito detections from your edge-to-cloud pipeline).&nbsp; <a href="https://digitomy.tech/" target="_blank" rel="noopener">digitomy.tech</a></p>
 
 <div class="soft-media-row">
-  <img class="soft-img--thumb"
+  <img class="soft-img-small"
        src="{{ '/assets/img/software/trap_1.jpg' | relative_url }}"
-       alt="Digitomy trap hardware">
-  <img class="soft-img--thumb"
+       alt="mosquitoID trap">
+  <img class="soft-img-small"
        src="{{ '/assets/img/software/trap_2.jpg' | relative_url }}"
-       alt="Digitomy trap hardware">
-  <img class="soft-img--thumb"
+       alt="mosquitoID trap front">
+  <img class="soft-img-small"
        src="{{ '/assets/img/software/digitomy_localized.jpg' | relative_url }}"
-       alt="Digitomy localized mosquito boxes">
+       alt="Trap Localization">
 </div>
+
 
 </div>
