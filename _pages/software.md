@@ -1,5 +1,4 @@
 ---
-title: "Software"
 permalink: /software/
 layout: hero-page
 ---
