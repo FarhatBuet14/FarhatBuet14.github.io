@@ -1,130 +1,71 @@
-/* ============================
-   Kearney-style card container
-   ============================ */
+/* ===========================
+   SOFTWARE PAGE IMAGE SIZING
+   (forces images to stay inside the card)
+   =========================== */
 
-   .kearney-card {
-    width: min(1100px, calc(100% - 64px));
-    margin: 48px auto;
-    padding: 28px 34px;
-    border-radius: 18px;
-    background: rgba(30, 35, 40, 0.72);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    box-shadow: 0 12px 40px rgba(0,0,0,0.35);
-    color: #f2f2f2;
-  }
-  
-  .kearney-title {
-    margin: 0 0 14px 0;
-    font-size: 40px;
-    font-weight: 700;
-    letter-spacing: 0.2px;
-  }
-  
-  .kearney-block {
-    margin-top: 18px;
-  }
-  
-  .kearney-card p {
-    margin: 0 0 12px 0;
-    line-height: 1.6;
-    font-size: 15px;
-  }
-  
-  .kearney-card a {
-    color: #8fd0ff;
-    text-decoration: underline;
-    text-underline-offset: 3px;
-  }
-  
-  .kearney-card a:hover {
-    color: #c7e8ff;
-  }
-  
-  /* ==================================
-     Image sizing: match Carney behavior
-     ==================================
-  
-     - Big hero screenshot: centered, capped width
-     - 3-image row: thumbnail-like, equal sizing, wrap on small screens
-  */
-  
-  .soft-media {
-    display: flex;
-    justify-content: center;
-    margin: 10px 0 18px 0;
-  }
-  
-  .soft-media img {
-    width: 100%;
-    max-width: 920px;       /* <-- key: prevents “giant” images */
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 10px 26px rgba(0,0,0,0.38);
-  }
-  
-  /* Row of smaller images (like Carney) */
-  .soft-media-row {
-    display: flex;
-    gap: 14px;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 10px;
-  }
-  
-  .soft-media-row .soft-media {
-    margin: 0;
-  }
-  
-  .soft-media-row .soft-media img {
-    max-width: 320px;       /* <-- key: makes them “Carney-sized” */
-    width: 320px;
-    height: 210px;          /* consistent thumbnail height */
-    object-fit: cover;      /* crop nicely like a thumbnail */
-    border-radius: 8px;
-  }
-  
-  /* Mobile */
-  @media (max-width: 720px) {
-    .kearney-card {
-      width: calc(100% - 24px);
-      padding: 18px 16px;
-    }
-  
-    .kearney-title {
-      font-size: 30px;
-    }
-  
-    .soft-media img {
-      max-width: 100%;
-    }
-  
-    .soft-media-row .soft-media img {
-      width: 100%;
-      max-width: 520px;
-      height: auto;
-      object-fit: contain;
-    }
-  }
-  
-  /* ===== FORCE images to fit inside the card (override everything) ===== */
-.kearney-card img {
-  display: block !important;
-  max-width: 100% !important;   /* never exceed the card width */
+/* Safety: never allow images in the card to overflow */
+.page__content .kearney-card img {
+  max-width: 100% !important;
   height: auto !important;
+  display: block;
 }
 
-/* Make the big GMOD image smaller (fits nicely inside the card) */
-.kearney-card .soft-media img {
+/* Make the card width feel like Carney’s */
+.page__content .kearney-card.software-card {
+  max-width: 980px;
+  margin: 28px auto;
+  padding: 28px 34px;
+}
+
+/* Slightly tighter section spacing */
+.page__content .kearney-card.software-card .kearney-section {
+  margin-top: 18px;
+}
+
+/* ---- GMOD big image: constrain width inside the card ---- */
+.page__content .kearney-card.software-card .soft-media {
+  max-width: 820px;            /* <-- controls how big the big screenshot can get */
+  margin: 14px auto 6px auto;  /* center it */
+}
+
+.page__content .kearney-card.software-card .soft-media img {
   width: 100% !important;
-  max-width: 680px !important;  /* <-- make this smaller if you want (e.g., 600px) */
-  margin: 0 auto !important;
+  max-width: 820px !important; /* same as container */
+  border-radius: 6px;
 }
 
-/* Make the 3 mosquitoID images smaller thumbnails */
-.kearney-card .soft-media-row img {
-  width: 220px !important;      /* <-- smaller */
-  max-width: 220px !important;
-  height: 150px !important;     /* <-- smaller */
-  object-fit: cover !important;
+/* ---- mosquitoID row images: make them smaller + uniform ---- */
+.page__content .kearney-card.software-card .soft-media-row {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  align-items: start;
+}
+
+/* force consistent tile-like thumbnails */
+.page__content .kearney-card.software-card .soft-media-row img {
+  width: 100% !important;
+  height: 170px !important;     /* <-- THIS is what makes them “smaller” like Carney’s */
+  object-fit: cover !important; /* crop nicely instead of making them huge */
+  border-radius: 6px;
+}
+
+/* Responsive: on small screens stack nicely */
+@media (max-width: 900px) {
+  .page__content .kearney-card.software-card .soft-media-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .page__content .kearney-card.software-card {
+    padding: 18px 18px;
+  }
+  .page__content .kearney-card.software-card .soft-media-row {
+    grid-template-columns: 1fr;
+  }
+  .page__content .kearney-card.software-card .soft-media-row img {
+    height: 190px !important;
+  }
 }
