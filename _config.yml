@@ -71,8 +71,10 @@ defaults:
     values:
       layout: single
       author_profile: true
+      classes: wide
       toc: false
       toc_sticky: false
+
 
 # Include folders that start with underscore
 include:
