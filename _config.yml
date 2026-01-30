@@ -9,7 +9,6 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
   - jekyll-sitemap
-  - jekyll-feed
 
 # SEO / social
 locale: "en-US"

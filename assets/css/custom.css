@@ -5,4 +5,9 @@
     height: 160px;
     object-fit: cover;
   }
+
+/* Hide footer completely */
+.page__footer {
+    display: none !important;
+  }
   
