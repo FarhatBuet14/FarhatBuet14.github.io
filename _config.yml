@@ -7,10 +7,15 @@ baseurl: ""
 cover_image: "/assets/img/cover.jpg"
 
 # Keep Minimal Mistakes as a dependency, but we use custom layouts for the Kearney-style look
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
 plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
   - jekyll-sitemap
+  - jekyll-feed
+
+
 
 locale: "en-US"
 timezone: "America/New_York"
@@ -38,3 +43,5 @@ exclude:
   - README.md
   - LICENSE
   - Gemfile
+
+markdown: kramdown
