@@ -31,7 +31,7 @@ layout: hero-page
   <a class="soft-link" href="https://mosquitoid.org" target="_blank" rel="noopener">mosquitoID.org</a><span class="soft-muted"> (beta)</span>
 </p>
 
-<div class="soft-media soft-media--grid">
+<div class="soft-media soft-media--row">
   <img class="soft-img--thumb"
        src="{{ '/assets/img/software/mosquitoid_capture.jpg' | relative_url }}"
        alt="mosquitoID capture">
@@ -52,7 +52,7 @@ layout: hero-page
   <a class="soft-link" href="https://digitomy.tech/" target="_blank" rel="noopener">digitomy.tech</a>
 </p>
 
-<div class="soft-media soft-media--grid">
+<div class="soft-media soft-media-row">
   <img class="soft-img--thumb"
        src="{{ '/assets/img/software/trap_1.jpg' | relative_url }}"
        alt="Digitomy trap hardware">

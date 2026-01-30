@@ -65,14 +65,3 @@
       height: 200px !important;
     }
   }
-  
-  /* --- Software page media layout (force row + centered) --- */
-.soft-media.soft-media--grid {
-  display: flex !important;
-  flex-direction: row !important;
-  flex-wrap: wrap !important;
-  justify-content: center !important;
-  align-items: center !important;
-  gap: 16px !important;
-  margin-top: 14px !important;
-}
