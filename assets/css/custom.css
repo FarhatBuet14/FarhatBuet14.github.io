@@ -36,4 +36,21 @@
 .software-item p{ margin: 8px 0; }
 .software-meta{ opacity: 0.9; font-size: 0.95em; }
 .software-links a{ font-weight: 700; text-decoration: underline; }
-  
+
+/* CV viewer: full width + fit screen height */
+.cv-embed {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 14px;
+}
+
+.cv-embed iframe {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: calc(100vh - 220px); /* adjust if you want taller/shorter */
+  min-height: 900px;
+  border: 0;
+  border-radius: 12px;
+  background: #fff;
+  display: block;
+}
