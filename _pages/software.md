@@ -28,9 +28,9 @@ permalink: /software/
 </p>
 
 <div class="soft-media soft-media--grid">
-  <img class="soft-img soft-img--thumb" src="{{ '/assets/img/software/mosquito_capture.jpg' | relative_url }}" alt="Mosquito capture example">
-  <img class="soft-img soft-img--thumb" src="{{ '/assets/img/software/mosquitoid_examples.jpg' | relative_url }}" alt="mosquitoID examples">
-  <img class="soft-img soft-img--thumb" src="{{ '/assets/img/software/explainability_example.jpg' | relative_url }}" alt="Explainability example output">
+  <img class="soft-img soft-img--thumb" src="{{ '/assets/img/software/mosquitoid_capture.jpg' | relative_url }}" alt="Mosquito capture example">
+  <img class="soft-img soft-img--thumb" src="{{ '/assets/img/software/mosquitoid_grid.jpg' | relative_url }}" alt="mosquitoID examples">
+  <img class="soft-img soft-img--thumb" src="{{ '/assets/img/software/mosquitoid_xai.jpg' | relative_url }}" alt="Explainability example output">
 </div>
 
 <p class="soft-note">
