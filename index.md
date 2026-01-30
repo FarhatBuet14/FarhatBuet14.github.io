@@ -7,14 +7,14 @@ hero_title: |
   Postdoctoral Scholar (AI Research & Engineering)
   Bellini College of Artificial Intelligence, Cybersecurity and Computing
   University of South Florida
-  -----------------------------------
+  _________________________________
 
 hero_subtitle: |
-  Computer Vision
-  Trustworthy/Explainable AI
-  Edge-to-Cloud AI Systems
-  Public Health AI
-  Citizen Science
+  • Computer Vision
+  • Trustworthy/Explainable AI
+  • Edge-to-Cloud AI Systems
+  • Public Health AI
+  • Citizen Science
 
 ---
 
