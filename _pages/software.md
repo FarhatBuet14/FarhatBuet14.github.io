@@ -31,14 +31,14 @@ layout: hero-page
   <a class="soft-link" href="https://mosquitoid.org" target="_blank" rel="noopener">mosquitoID.org</a><span class="soft-muted"> (beta)</span>
 </p>
 
-<div class="soft-media soft-media--row">
-  <img class="soft-img--thumb"
+<div class="soft-media-row">
+  <img class="soft-img-small"
        src="{{ '/assets/img/software/mosquitoid_capture.jpg' | relative_url }}"
        alt="mosquitoID capture">
-  <img class="soft-img--thumb"
+  <img class="soft-img-small"
        src="{{ '/assets/img/software/mosquitoid_grid.jpg' | relative_url }}"
        alt="mosquitoID examples grid">
-  <img class="soft-img--thumb"
+  <img class="soft-img-small"
        src="{{ '/assets/img/software/mosquitoid_xai.jpg' | relative_url }}"
        alt="Explainability example output">
 </div>
@@ -52,7 +52,7 @@ layout: hero-page
   <a class="soft-link" href="https://digitomy.tech/" target="_blank" rel="noopener">digitomy.tech</a>
 </p>
 
-<div class="soft-media soft-media-row">
+<div class="soft-media-row">
   <img class="soft-img--thumb"
        src="{{ '/assets/img/software/trap_1.jpg' | relative_url }}"
        alt="Digitomy trap hardware">
