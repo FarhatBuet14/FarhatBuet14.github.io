@@ -182,3 +182,16 @@ body{
   .k-links{ display:none; } /* keep clean on mobile */
   .k-topnav{ justify-content: space-between; }
 }
+
+/* Embedded PDF viewer (CV page) */
+.k-pdf{
+  width: 100%;
+  height: 85vh;
+  min-height: 900px;
+  border: 0;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.06);
+}
+@media (max-width: 768px){
+  .k-pdf{ min-height: 70vh; }
+}
