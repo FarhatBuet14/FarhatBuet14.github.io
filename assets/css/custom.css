@@ -107,3 +107,24 @@
     }
   }
   
+  /* ===== FORCE images to fit inside the card (override everything) ===== */
+.kearney-card img {
+  display: block !important;
+  max-width: 100% !important;   /* never exceed the card width */
+  height: auto !important;
+}
+
+/* Make the big GMOD image smaller (fits nicely inside the card) */
+.kearney-card .soft-media img {
+  width: 100% !important;
+  max-width: 680px !important;  /* <-- make this smaller if you want (e.g., 600px) */
+  margin: 0 auto !important;
+}
+
+/* Make the 3 mosquitoID images smaller thumbnails */
+.kearney-card .soft-media-row img {
+  width: 220px !important;      /* <-- smaller */
+  max-width: 220px !important;
+  height: 150px !important;     /* <-- smaller */
+  object-fit: cover !important;
+}
