@@ -1,122 +1,109 @@
-/* =========================================================
-   FarhatAzam.com custom styles
-   (Safe overrides for Minimal Mistakes + Kearney-style pages)
-   ========================================================= */
+/* ============================
+   Kearney-style card container
+   ============================ */
 
-/* ---------- Avatar sizing (sidebar / author profile) ---------- */
-.author__avatar img,
-.author__avatar .author__avatar-img,
-.sidebar .author__avatar img {
-  width: 170px;          /* tweak: 140–190px usually looks best */
-  height: 170px;
-  object-fit: cover;
-  border-radius: 999px;
-}
-
-/* ---------- Remove/disable the footer "toolbox" / feed strip if desired ---------- */
-/* If you want the blue footer bar + feed link hidden entirely, uncomment below */
-/*
-.page__footer,
-.page__footer-follow,
-.page__footer-copyright {
-  display: none !important;
-}
-*/
-
-/* =========================================================
-   Kearney-style glass card + media sizing
-   ========================================================= */
-
-/* A centered glass card that doesn't stretch too wide on large screens */
-.kearney-card {
-  max-width: 980px;              /* match the “Carney” feel */
-  margin: 90px auto 80px auto;   /* top space clears the nav */
-  padding: 30px 38px;
-  background: rgba(20, 26, 33, 0.78);
-  border: 1px solid rgba(255, 255, 255, 0.10);
-  border-radius: 18px;
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  color: #f2f5f7;
-}
-
-/* Headings inside the card */
-.kearney-card h1,
-.kearney-card h2,
-.kearney-card h3 {
-  color: #ffffff;
-  margin-top: 0.1rem;
-}
-
-/* Links inside the card */
-.kearney-card a {
-  color: #86c7ff;
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-.kearney-card a:hover {
-  color: #b5deff;
-}
-
-/* Make sure images never overflow the card */
-.kearney-card img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-/* ---------- Software page media controls ---------- */
-
-/* Large screenshot (GMOD) – keep it “big”, but not full-card width on desktop */
-.kearney-card .soft-media {
-  margin: 14px 0 26px 0;
-}
-.kearney-card .soft-media img {
-  width: 100%;
-  max-width: 760px;     /* key: prevents the screenshot from becoming huge */
-  margin: 0 auto;       /* centers it like Carney */
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.35);
-}
-
-/* Row of smaller images (mosquitoID examples) */
-.kearney-card .soft-media-row {
-  margin-top: 14px;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
-}
-
-/* On smaller screens, collapse to fewer columns */
-@media (max-width: 900px) {
-  .kearney-card {
-    margin-top: 70px;
-    padding: 22px 18px;
+   .kearney-card {
+    width: min(1100px, calc(100% - 64px));
+    margin: 48px auto;
+    padding: 28px 34px;
+    border-radius: 18px;
+    background: rgba(30, 35, 40, 0.72);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.35);
+    color: #f2f2f2;
   }
-  .kearney-card .soft-media-row {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  
+  .kearney-title {
+    margin: 0 0 14px 0;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
   }
-}
-@media (max-width: 560px) {
-  .author__avatar img,
-  .author__avatar .author__avatar-img,
-  .sidebar .author__avatar img {
-    width: 140px;
-    height: 140px;
+  
+  .kearney-block {
+    margin-top: 18px;
   }
-  .kearney-card .soft-media-row {
-    grid-template-columns: 1fr;
+  
+  .kearney-card p {
+    margin: 0 0 12px 0;
+    line-height: 1.6;
+    font-size: 15px;
   }
-  .kearney-card .soft-media img {
-    max-width: 100%; /* on mobile, use full width */
+  
+  .kearney-card a {
+    color: #8fd0ff;
+    text-decoration: underline;
+    text-underline-offset: 3px;
   }
-}
-
-.kearney-card .soft-media-row img {
-  width: 100%;
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.28);
-}
+  
+  .kearney-card a:hover {
+    color: #c7e8ff;
+  }
+  
+  /* ==================================
+     Image sizing: match Carney behavior
+     ==================================
+  
+     - Big hero screenshot: centered, capped width
+     - 3-image row: thumbnail-like, equal sizing, wrap on small screens
+  */
+  
+  .soft-media {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 18px 0;
+  }
+  
+  .soft-media img {
+    width: 100%;
+    max-width: 920px;       /* <-- key: prevents “giant” images */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 26px rgba(0,0,0,0.38);
+  }
+  
+  /* Row of smaller images (like Carney) */
+  .soft-media-row {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .soft-media-row .soft-media {
+    margin: 0;
+  }
+  
+  .soft-media-row .soft-media img {
+    max-width: 320px;       /* <-- key: makes them “Carney-sized” */
+    width: 320px;
+    height: 210px;          /* consistent thumbnail height */
+    object-fit: cover;      /* crop nicely like a thumbnail */
+    border-radius: 8px;
+  }
+  
+  /* Mobile */
+  @media (max-width: 720px) {
+    .kearney-card {
+      width: calc(100% - 24px);
+      padding: 18px 16px;
+    }
+  
+    .kearney-title {
+      font-size: 30px;
+    }
+  
+    .soft-media img {
+      max-width: 100%;
+    }
+  
+    .soft-media-row .soft-media img {
+      width: 100%;
+      max-width: 520px;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+  
