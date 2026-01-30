@@ -10,4 +10,15 @@
 .page__footer {
     display: none !important;
   }
+
+.cv-frame {
+    background: rgba(0,0,0,0.15);
+    padding: 18px;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+.cv-frame iframe {
+    border-radius: 10px;
+    background:white;
+}
   

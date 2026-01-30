@@ -1,8 +1,18 @@
 ---
 title: "CV"
 permalink: /cv/
+layout: single
+classes: wide
+author_profile: false
 ---
 
-- **Download CV (PDF):** [/assets/pdf/CV_Farhat_Binte_Azam.pdf](/assets/pdf/CV_Farhat_Binte_Azam.pdf)
 
-(Optional) You can also add a short one-paragraph summary here, or link a Research Statement.
+<div style="background: rgba(0,0,0,0.12); padding: 18px; border-radius: 14px;">
+  <iframe
+    src="{{ '/assets/pdfjs/web/viewer.html?file=' | relative_url }}{{ '/assets/pdfs/Farhat_Binte_Azam_CV.pdf' | relative_url }}"
+    width="100%"
+    height="900"
+    style="border:0; border-radius: 10px; background: white;"
+    loading="lazy">
+  </iframe>
+</div>
