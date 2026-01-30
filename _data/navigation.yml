@@ -1,16 +1,15 @@
-- title: Home
-  url: /
-- title: Research
-  url: /research/
-- title: Publications
-  url: /publications/
-- title: Software & Data
-  url: /software/
-- title: Teaching
-  url: /teaching/
-- title: Service & Talks
-  url: /service/
-- title: CV
-  url: /cv/
-- title: Contact
-  url: /contact/
+main:
+  - title: "Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "Software & Data"
+    url: /software/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Service & Talks"
+    url: /service/
+  - title: "CV"
+    url: /cv/
+  - title: "Contact"
+    url: /contact/
