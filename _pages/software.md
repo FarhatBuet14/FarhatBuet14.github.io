@@ -18,7 +18,7 @@ layout: hero-page
 
     <div class="soft-media">
       <img
-        src="{{ '/assets/img/software/gmod_1.jpg' | relative_url }}"
+        src="{{ '/assets/img/software/gmod.jpg' | relative_url }}"
         alt="GMOD screenshot"
         loading="lazy"
       >
