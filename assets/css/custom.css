@@ -1,76 +1,166 @@
-/* ===========================
-   SOFTWARE PAGE IMAGE SIZING
-   (forces images to stay inside the card)
-   =========================== */
+/* Sidebar avatar size (Minimal Mistakes) */
+.author__avatar img {
+  max-width: 160px;   /* try 120–180 */
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
 
-/* Safety: never allow images in the card to overflow */
-.page__content .kearney-card img {
+/* Hide footer completely */
+.page__footer {
+  display: none !important;
+}
+
+.cv-frame {
+  background: rgba(0,0,0,0.15);
+  padding: 18px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+.cv-frame iframe {
+  border-radius: 10px;
+  background: white;
+}
+
+/* Software entries like ryancarney.com/software */
+.software-item{
+  background: rgba(0,0,0,0.20);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 14px;
+  padding: 18px 20px;
+  margin: 14px 0;
+  backdrop-filter: blur(8px);
+}
+.software-item h3{ margin: 0 0 8px 0; }
+.software-item p{ margin: 8px 0; }
+.software-meta{ opacity: 0.9; font-size: 0.95em; }
+.software-links a{ font-weight: 700; text-decoration: underline; }
+
+/* CV viewer: full width + fit screen height */
+.cv-embed {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 14px;
+}
+
+.cv-embed iframe {
+  width: 100% !important;
   max-width: 100% !important;
-  height: auto !important;
+  height: calc(100vh - 220px); /* adjust if you want taller/shorter */
+  min-height: 900px;
+  border: 0;
+  border-radius: 12px;
+  background: #fff;
   display: block;
 }
 
-/* Make the card width feel like Carney’s */
-.page__content .kearney-card.software-card {
+/* Kearney-style centered content card */
+.kearney-card{
   max-width: 980px;
-  margin: 28px auto;
-  padding: 28px 34px;
+  width: calc(100% - 80px);
+  margin: 90px auto 60px;
+  padding: 34px 44px;
+  border-radius: 18px;
+
+  background: rgba(0,0,0,0.55);
+  box-shadow: 0 18px 60px rgba(0,0,0,0.45);
+  border: 1px solid rgba(255,255,255,0.08);
+
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
+  color: rgba(255,255,255,0.92);
 }
 
-/* Slightly tighter section spacing */
-.page__content .kearney-card.software-card .kearney-section {
-  margin-top: 18px;
-}
+.kearney-card a{ color:#5cc8ff; text-decoration:none; }
+.kearney-card a:hover{ text-decoration:underline; }
 
-/* ---- GMOD big image: constrain width inside the card ---- */
-/* ---- GMOD big image: much smaller + always contained ---- */
-.page__content .kearney-card.software-card .soft-media {
-  max-width: 420px;            /* <<< smaller (was 820) */
-  margin: 14px auto 6px auto;
-}
-
-.page__content .kearney-card.software-card .soft-media img {
-  width: 100% !important;
-  max-width: 420px !important; /* <<< match container */
-  max-height: 260px !important;/* <<< stops tall images */
-  object-fit: contain !important;
-  border-radius: 6px;
-}
-
-
-/* ---- mosquitoID row images: make them smaller + uniform ---- */
-.page__content .kearney-card.software-card .soft-media-row {
-  margin-top: 12px;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-  align-items: start;
-}
-
-/* force consistent tile-like thumbnails */
-.page__content .kearney-card.software-card .soft-media-row img {
-  width: 100% !important;
-  height: 70px !important;      /* <<< smaller (was 170) */
-  object-fit: cover !important;
-  border-radius: 6px;
-}
-
-
-/* Responsive: on small screens stack nicely */
-@media (max-width: 900px) {
-  .page__content .kearney-card.software-card .soft-media-row {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+@media (max-width:700px){
+  .kearney-card{
+    width: calc(100% - 26px);
+    padding: 20px 18px;
+    margin-top: 70px;
   }
 }
 
-@media (max-width: 600px) {
-  .page__content .kearney-card.software-card {
-    padding: 18px 18px;
+/* Titles + subtle color accents */
+.soft-title{ font-weight: 700; }
+.soft-title.green{ color: #2ecc71; }
+.soft-title.blue{ color: #4aa3ff; }
+
+.soft-meta{
+  opacity: 0.85;
+  font-size: 0.95em;
+}
+
+/* Links like Ryan’s (bright + clean) */
+.soft-link{
+  color: #4aa3ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.soft-link:hover{ text-decoration: underline; }
+
+/* Media blocks */
+.soft-media{ margin-top: 14px; }
+
+/* IMPORTANT: keep row from stretching images huge */
+.soft-media-row{
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+  justify-content: center;   /* center like Carney */
+  align-items: flex-start;
+}
+
+/* ------------------------------ */
+/* ✅ FIX: FORCE SMALL IMAGE SIZES */
+/* ------------------------------ */
+
+/* Large GMOD image: small and contained */
+.kearney-card img.soft-img-large{
+  display: block;
+  width: auto !important;          /* do NOT stretch */
+  max-width: 520px !important;     /* smaller */
+  max-height: 320px;               /* prevents giant tall images */
+  height: auto;
+  margin: 12px auto 0 auto;
+
+  object-fit: contain;
+  background: rgba(255,255,255,0.08);
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+/* 3 small mosquitoID images: make them like “thumbnails”, never grow */
+.kearney-card img.soft-img-thumb{
+  flex: 0 0 auto !important;       /* stop flex growth */
+  width: 220px !important;         /* ~10x smaller feel than current */
+  max-width: 220px !important;
+  max-height: 160px;
+  height: auto;
+
+  display: block;
+  margin: 0;
+
+  object-fit: contain;
+  background: rgba(255,255,255,0.08);
+  padding: 6px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+/* Mobile: make them responsive (stack nicely) */
+@media (max-width:700px){
+  .kearney-card img.soft-img-large{
+    max-width: 100% !important;
+    max-height: none;
   }
-  .page__content .kearney-card.software-card .soft-media-row {
-    grid-template-columns: 1fr;
-  }
-  .page__content .kearney-card.software-card .soft-media-row img {
-    height: 190px !important;
+  .kearney-card img.soft-img-thumb{
+    width: 46vw !important;       /* two per row */
+    max-width: 46vw !important;
+    max-height: 180px;
   }
 }
