@@ -6,15 +6,15 @@
 
 /* ---------- Kearney-style content card ---------- */
 .kearney-card {
-  max-width: 980px;
-  margin: 90px auto 60px;
-  padding: 28px 32px;
+  max-width: 98px;
+  margin: 9px auto 6px;
+  padding: 2px 3px;
   background: rgba(28, 34, 41, 0.78);
   border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 18px;
-  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.35);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+  border-radius: 1px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
 }
 
 .kearney-card h1,
