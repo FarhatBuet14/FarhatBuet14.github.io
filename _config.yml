@@ -34,9 +34,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/"
-    - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:farhatb14@gmail.com"
 
 # Site UI
 minimal_mistakes_skin: "air"
