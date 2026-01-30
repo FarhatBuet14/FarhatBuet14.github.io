@@ -4,10 +4,14 @@ permalink: /software/
 layout: hero-page
 ---
 
+<style>
+/* Hide the auto page title rendered by the hero-page layout */
+.k-page-title { display: none !important; }
+</style>
+
 <div class="kearney-card">
 
-<p><strong>Global Mosquito Observations Dashboard (GMOD)</strong>: interactive map dashboard for visualizing and downloading mosquito data from citizen science platforms iNaturalist, Mosquito Alert, and NASA’s GLOBE Observer. (Carney et al. 2022; Uelmen et al. 2023). NSF grant #2014547.
-<br><a href="https://mosquitodashboard.org" target="_blank" rel="noopener">mosquitodashboard.org</a></p>
+<p><strong style="color:#33d17a;">Global Mosquito Observations Dashboard (GMOD)</strong>: interactive map dashboard for visualizing and downloading mosquito data from citizen science platforms iNaturalist, Mosquito Alert, and NASA’s GLOBE Observer. (Carney et al. 2022; Uelmen et al. 2023). NSF grant #2014547. <a href="https://mosquitodashboard.org" target="_blank" rel="noopener">mosquitodashboard.org</a></p>
 
 <div class="soft-media">
   <img class="soft-img-large"
@@ -15,8 +19,7 @@ layout: hero-page
        alt="GMOD screenshot">
 </div>
 
-<p><strong>mosquitoID.org</strong>: artificial intelligence (AI) tools for citizen scientists and mosquito control personnel to identify species and gonotrophic stage of larval and adult mosquitoes using smartphone photos, in collaboration with the Chellappan lab. (Nelson et al. 2024; Azam et al. 2023; Carney et al. 2022; Minakshi et al. 2020a,b). NSF grant #2014547; patents US 12,147,504 and pending.
-<br><a href="https://mosquitoid.org" target="_blank" rel="noopener">mosquitoID.org</a> (beta)</p>
+<p><strong style="color:#62a0ea;">mosquitoID.org</strong>: artificial intelligence (AI) tools for citizen scientists and mosquito control personnel to identify species and gonotrophic stage of larval and adult mosquitoes using smartphone photos, in collaboration with the Chellappan lab. (Nelson et al. 2024; Azam et al. 2023; Carney et al. 2022; Minakshi et al. 2020a,b). NSF grant #2014547; patents US 12,147,504 and pending. <a href="https://mosquitoid.org" target="_blank" rel="noopener">mosquitoID.org</a> (beta)</p>
 
 <div class="soft-media-row">
   <img class="soft-img-small"
