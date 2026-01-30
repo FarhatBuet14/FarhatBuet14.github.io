@@ -1,10 +1,12 @@
 ---
-layout: splash
+layout: single
 classes: wide
-author_profile: false
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.35"
+  overlay_image: /assets/img/cover.jpg
+  overlay_filter: 0.45   # 0.0 to 0.8 (higher = darker)
+  caption: "© Farhat Binte Azam"
+  # overlay_color: "#000"
+  # overlay_filter: "0.35"
   actions:
     - label: "Download CV"
       url: "/assets/pdf/CV_Farhat_Binte_Azam.pdf"
