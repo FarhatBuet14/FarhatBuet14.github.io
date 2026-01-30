@@ -13,12 +13,10 @@ permalink: /software/
     <a class="soft-link" href="https://mosquitodashboard.org" target="_blank" rel="noopener">mosquitodashboard.org</a>
   </p>
 
-  <!-- Optional image (add later if you want) -->
-  <!--
+  
   <div class="soft-media">
     <img src="/assets/img/software/gmod.jpg" alt="GMOD screenshot">
   </div>
-  -->
 
   <p style="margin-top: 28px;">
     <span class="soft-title blue">mosquitoID.org</span>:
@@ -29,12 +27,12 @@ permalink: /software/
     <a class="soft-link" href="https://mosquitoid.org" target="_blank" rel="noopener">mosquitoID.org</a> <span class="soft-meta">(beta)</span>
   </p>
 
-  <!-- Optional image row (add later if you want) -->
-  <!--
+  
   <div class="soft-media-row">
+    <img src="/assets/img/software/mosquitoid_capture.jpg" alt="mosquito capture">
     <img src="/assets/img/software/mosquitoid_grid.jpg" alt="mosquitoID examples">
     <img src="/assets/img/software/mosquitoid_cam.jpg" alt="Explainability / example output">
   </div>
-  -->
+  
 
 </div>
