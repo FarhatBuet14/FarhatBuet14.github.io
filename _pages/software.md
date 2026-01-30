@@ -1,5 +1,5 @@
 ---
-title: "Software & Data"
+title: "Software"
 permalink: /software/
 ---
 

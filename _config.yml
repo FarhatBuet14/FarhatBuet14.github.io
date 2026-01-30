@@ -1,83 +1,40 @@
 title: "Farhat Binte Azam"
-name: "Farhat Binte Azam"
 description: "Deployable, trustworthy AI for public-health sensing."
 url: "https://farhatazam.com"
 baseurl: ""
-repository: ""
 
+# Default background image for all pages (replace later with your preferred cover photo)
+cover_image: "/assets/img/cover.jpg"
+
+# Keep Minimal Mistakes as a dependency, but we use custom layouts for the Kearney-style look
 remote_theme: "mmistakes/minimal-mistakes"
+
 plugins:
-  - jekyll-include-cache
   - jekyll-sitemap
 
-# SEO / social
 locale: "en-US"
 timezone: "America/New_York"
-twitter:
-  username: ""
 
-# Author info shown in sidebar and elsewhere
 author:
   name: "Farhat Binte Azam"
   avatar: "/assets/img/avatar.jpg"
   bio: "Postdoctoral Scholar (AI Research & Engineering), University of South Florida. Computer Vision • Trustworthy/Explainable AI • Edge-to-Cloud AI Systems • Public Health AI • Citizen Science."
   location: "Tampa, FL"
   email: "farhatb14@gmail.com"
-  links:
-    - label: "Google Scholar"
-      icon: "fas fa-graduation-cap"
-      url: "https://scholar.google.com/"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/"
 
-# Site UI
-minimal_mistakes_skin: "air"
-search: true
+# Build pages that live inside folders starting with underscore
+include:
+  - _pages
 
-# Navigation
-nav:
-  - title: "Menu"
-    children:
-      - title: "Home"
-        url: /
-      - title: "Research"
-        url: /research/
-      - title: "Publications"
-        url: /publications/
-      - title: "Software & Data"
-        url: /software/
-      - title: "Teaching"
-        url: /teaching/
-      - title: "Service & Talks"
-        url: /service/
-      - title: "CV"
-        url: /cv/
-      - title: "Contact"
-        url: /contact/
-
-# Defaults
+# Default layout for pages (home uses layout: hero-home)
 defaults:
   - scope:
       path: ""
       type: pages
     values:
-      layout: single
-      author_profile: true
-      classes: wide
-      toc: false
-      toc_sticky: false
+      layout: hero-page
 
-
-# Include folders that start with underscore
-include:
-  - _pages
-
-
-# Exclude
 exclude:
   - README.md
   - LICENSE
+  - Gemfile

@@ -1,0 +1,27 @@
+---
+layout: base
+---
+{% assign bg = page.cover_image | default: site.cover_image | default: '/assets/img/cover.jpg' %}
+<div class="k-bg" style="--bg-url: url('{{ bg | relative_url }}');">
+  <header class="k-topnav">
+    <div class="k-brand"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></div>
+    <nav class="k-links">
+      {% for item in site.data.navigation.main %}
+        {% assign is_active = false %}
+        {% if page.url == item.url %}{% assign is_active = true %}{% endif %}
+        <a class="{% if is_active %}active{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a>{% unless forloop.last %}<span class="sep">|</span>{% endunless %}
+      {% endfor %}
+    </nav>
+  </header>
+
+  <main class="k-center">
+    <section class="k-card">
+      {% if page.title and page.title != '' %}
+        <h1 class="k-page-title">{{ page.title }}</h1>
+      {% endif %}
+      <div class="k-content">
+        {{ content }}
+      </div>
+    </section>
+  </main>
+</div>
