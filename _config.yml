@@ -74,6 +74,11 @@ defaults:
       toc: false
       toc_sticky: false
 
+# Include folders that start with underscore
+include:
+  - _pages
+
+
 # Exclude
 exclude:
   - README.md
