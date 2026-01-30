@@ -46,9 +46,4 @@ permalink: /software/
        alt="Explainability example output">
 </div>
 
-<p class="soft-note">
-  <em>Make sure these image files exist in</em> <code>assets/img/software/</code> <em>with these exact names:</em>
-  <code>gmod.jpg</code>, <code>mosquitoid_capture.jpg</code>, <code>mosquitoid_grid.jpg</code>, <code>mosquitoid_xai.jpg</code>.
-</p>
-
 </div>
