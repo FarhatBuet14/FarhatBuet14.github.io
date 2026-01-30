@@ -6,13 +6,11 @@ classes: wide
 author_profile: false
 ---
 
-**Download CV (PDF):** [CV_Farhat_Binte_Azam.pdf](/assets/pdfs/CV_Farhat_Binte_Azam.pdf)
-
 <div class="cv-embed">
   <iframe
     src="/assets/pdfs/CV_Farhat_Binte_Azam.pdf#view=FitH"
     title="CV"
     loading="lazy"
-    style="width:100%; height:80vh; border:0;">
+    style="width:100%; height:60vh; border:0;">
   </iframe>
 </div>
