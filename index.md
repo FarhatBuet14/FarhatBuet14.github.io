@@ -27,7 +27,7 @@ I build **deployable computer-vision systems** for **real-world public-health se
 
 
 **Highlights**
-- **10+ publications** across venues including *Scientific Reports*, *Artificial Intelligence in Medicine*, and *Insects*
-- **1 U.S. patent application** (computer-vision–based biological inference)
-- Collaborations with public-health partners on **field deployments** and **surveillance workflows**
+- <span class="accent"><strong>10+ publications</strong></span> across venues including *Scientific Reports*, *Artificial Intelligence in Medicine*, and *Insects*
+- <span class="accent"><strong>1 U.S. patent application</strong></span> (computer-vision–based biological inference)
+- Collaborations with <span class="accent"><strong>public-health partners</strong></span> on field deployments and surveillance workflows
 
