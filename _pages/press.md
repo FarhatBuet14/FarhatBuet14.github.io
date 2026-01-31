@@ -1,7 +1,12 @@
 ---
-title: "Press"
+title: ""
 permalink: /press/
 ---
+
+<style>
+/* Hide the auto page title rendered by the hero-page layout */
+.k-page-title { display: none !important; }
+</style>
 
 Add media coverage, features, and outreach links here.
 

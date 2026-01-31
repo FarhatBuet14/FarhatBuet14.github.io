@@ -1,7 +1,12 @@
 ---
-title: "Images"
+title: ""
 permalink: /images/
 ---
+
+<style>
+/* Hide the auto page title rendered by the hero-page layout */
+.k-page-title { display: none !important; }
+</style>
 
 A gallery for field deployments, prototypes, posters, and figures.
 

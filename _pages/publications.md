@@ -1,7 +1,12 @@
 ---
-title: "Papers"
+title: ""
 permalink: /publications/
 ---
+
+<style>
+/* Hide the auto page title rendered by the hero-page layout */
+.k-page-title { display: none !important; }
+</style>
 
 ## Selected publications
 

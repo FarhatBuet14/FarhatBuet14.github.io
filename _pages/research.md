@@ -1,7 +1,12 @@
 ---
-title: "Research"
+title: ""
 permalink: /research/
 ---
+
+<style>
+/* Hide the auto page title rendered by the hero-page layout */
+.k-page-title { display: none !important; }
+</style>
 
 ## Research overview
 
