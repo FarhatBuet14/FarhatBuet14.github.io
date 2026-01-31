@@ -36,7 +36,13 @@ layout: hero-page
 
 <p><strong style="color:#62a0ea;">Digitomy Trap Annotate</strong>: a web tool for reviewing and annotating mosquito-trap image captures, including fast labeling workflows for trap collections and AI-assisted views (e.g., localized mosquito detections from your edge-to-cloud pipeline).&nbsp; <a href="https://digitomy.tech/" target="_blank" rel="noopener">digitomy.tech</a></p>
 
-<div class="soft-media-row">
+<div class="soft-media">
+  <img class="soft-img-large"
+       src="{{ '/assets/img/software/trap.jpg' | relative_url }}"
+       alt="Trap Image">
+</div>
+
+<!-- <div class="soft-media-row">
   <img class="soft-img-small"
        src="{{ '/assets/img/software/trap_1.jpg' | relative_url }}"
        alt="mosquitoID trap">
@@ -46,7 +52,7 @@ layout: hero-page
   <img class="soft-img-small"
        src="{{ '/assets/img/software/digitomy_localized.jpg' | relative_url }}"
        alt="Trap Localization">
-</div>
+</div> -->
 
 
 </div>
