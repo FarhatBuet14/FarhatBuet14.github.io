@@ -1,7 +1,13 @@
 ---
-title: "Contact"
+title: ""
+nav_title: "Contact"
 permalink: /contact/
 ---
+
+<style>
+/* Hide the auto page title rendered by the hero-page layout */
+.k-page-title { display: none !important; }
+</style>
 
 <div class="contact-card">
 
