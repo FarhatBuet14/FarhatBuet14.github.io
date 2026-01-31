@@ -23,7 +23,7 @@ I build **deployable computer-vision systems** for **real-world public-health se
 **Current focus areas**
 - <span class="c-red"><strong>MosquitoAI:</strong></span> AI-powered mosquito surveillance from heterogeneous imagery and field-deployed traps  
 - <span class="c-green"><strong>Dense-object localization:</strong></span> robust detection under occlusion, clutter, and domain shift  
-- <span class="c-blue"><strong>Trustworthy AI:</strong></span> explainability, uncertainty-aware monitoring, and human-in-the-loop workflows  
+- <span class="c-yellow"><strong>Trustworthy AI:</strong></span> explainability, uncertainty-aware monitoring, and human-in-the-loop workflows  
 
 
 **Highlights**
