@@ -6,9 +6,13 @@ permalink: /contact/
 <div class="contact-card">
 
 <p class="contact-lead">
-If you’d like to collaborate (AI for public-health sensing, trustworthy/explainable AI, edge-to-cloud systems),
-feel free to reach out.
+  If you’d like to collaborate (
+  <span class="c-red">AI for public-health sensing</span>,
+  <span class="c-green">trustworthy/explainable AI</span>,
+  <span class="c-blue">edge-to-cloud systems</span>
+  ), feel free to reach out.
 </p>
+
 
 <div class="contact-actions">
   <a class="btn btn--primary" href="mailto:farhatb14@gmail.com?subject=Hello%20Farhat%20%E2%80%94%20Website%20Inquiry">Email me</a>
