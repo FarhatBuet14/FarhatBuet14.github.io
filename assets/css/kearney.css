@@ -108,8 +108,25 @@ body{
 
 .k-left-meta{ margin-top: 16px; }
 .k-name{ font-size: 22px; font-weight: 800; margin-bottom: 10px; }
-.k-role{ font-size: 14px; line-height: 1.4; color: var(--muted); }
-.k-sub{ margin-top: 10px; font-size: 13.5px; line-height: 1.45; color: var(--muted); }
+
+/* .k-role{ font-size: 14px; line-height: 1.4; color: var(--muted); }
+.k-sub{ margin-top: 10px; font-size: 13.5px; line-height: 1.45; color: var(--muted); } */
+
+.k-role{
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--muted);
+  white-space: pre-line;   /* shows your line breaks in hero_title */
+}
+
+.k-sub{
+  margin-top: 10px;
+  font-size: 13.5px;
+  line-height: 1.45;
+  color: var(--muted);
+  white-space: pre;        /* shows line breaks + keeps each bullet on one line */
+}
+
 
 .k-logos{
   margin-top: 18px;
