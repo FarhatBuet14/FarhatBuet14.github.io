@@ -21,7 +21,7 @@ layout: base
           <img class="k-portrait" src="{{ page.profile_image | default: site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
           <div class="k-left-meta">
             <div class="k-name">{{ site.author.name }}</div>
-            <div class="k-role">{{ page.hero_title | default: site.author.bio }}</div>
+            <div class="k-role">{{ page.hero_title | default: site.author.bio | newline_to_br }}</div>
             {% if page.hero_subtitle %}
               <div class="k-sub">{{ page.hero_subtitle }}</div>
             {% endif %}
@@ -40,12 +40,12 @@ layout: base
             {{ content }}
           </div>
 
-          <div class="k-cta">
+          <!-- <div class="k-cta">
             <a class="k-btn" href="{{ '/cv/' | relative_url }}">CV</a>
             <a class="k-btn" href="{{ '/publications/' | relative_url }}">Papers</a>
             <a class="k-btn" href="{{ '/research/' | relative_url }}">Research</a>
             <a class="k-btn" href="{{ '/contact/' | relative_url }}">Contact</a>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
