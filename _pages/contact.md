@@ -9,7 +9,7 @@ permalink: /contact/
   If you’d like to collaborate (
   <span class="c-red">AI for public-health sensing</span>,
   <span class="c-green">trustworthy/explainable AI</span>,
-  <span class="c-blue">edge-to-cloud systems</span>
+  <span class="c-yellow">edge-to-cloud systems</span>
   ), feel free to reach out.
 </p>
 
