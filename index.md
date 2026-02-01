@@ -26,7 +26,7 @@ I build **deployable computer-vision systems** for **real-world sensing and deci
 ## Current focus areas
 - <span class="c-blue"><strong>MosquitoAI:</strong></span> AI-powered mosquito surveillance from heterogeneous imagery and field-deployed traps  
 - <span class="c-green"><strong>Dense-object localization:</strong></span> robust detection under occlusion, clutter, and domain shift  
-- <span class="c-yellow"><strong>Trustworthy AI:</strong></span> explainability, uncertainty-aware monitoring, and human-in-the-loop workflows  
+- <span class="c-yellow"><strong>Trustworthy AI:</strong></span> explainability, uncertainty-aware monitoring, and human-in-the-loop  
 
 ---
 
@@ -48,15 +48,15 @@ I build **deployable computer-vision systems** for **real-world sensing and deci
 - Dataset + experiment management, reproducibility, and reporting  
 - System integration patterns for edge devices and cloud inference
 
----
+<!-- --- -->
 
 <!-- ## Collaboration
 I work comfortably across **AI/ML**, **software**, and **domain science** teams—translating needs into measurable objectives, iterating quickly, and keeping outputs usable for decision-makers. -->
 
----
+<!-- ---
 
 ## Opportunities
 <span class="hl-bg">I’m actively exploring Applied Scientist / Machine Learning Engineer / Computer Vision Engineer / Edge AI roles</span>
 
 
-If you think there’s a fit, please reach out via the **Contact** page.
+If you think there’s a fit, please reach out via the **Contact** page. -->
