@@ -133,3 +133,17 @@
 .c-yellow { color: #ffd54a; font-weight: 600; }
 
 .accent{ color:#ff4d4d; font-weight:700; }
+
+
+/* subtle, professional highlight colors */
+.hl-red   { color: #b91c1c; font-weight: 700; }
+.hl-green { color: #15803d; font-weight: 700; }
+.hl-blue  { color: #1d4ed8; font-weight: 700; }
+
+/* optional: background-style highlight */
+.hl-bg {
+  padding: 0 .25em;
+  border-radius: .35em;
+  background: rgba(255, 215, 0, 0.18);
+  font-weight: 700;
+}

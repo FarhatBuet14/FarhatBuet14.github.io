@@ -56,6 +56,7 @@ I work comfortably across **AI/ML**, **software**, and **domain science** teams�
 ---
 
 ## Opportunities
-I’m actively exploring Applied Scientist / Machine Learning Engineer / Computer Vision Engineer / Edge AI roles  
+<span class="hl-bg">I’m actively exploring Applied Scientist / Machine Learning Engineer / Computer Vision Engineer / Edge AI roles</span>
+
 
 If you think there’s a fit, please reach out via the **Contact** page.
