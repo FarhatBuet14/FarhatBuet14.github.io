@@ -16,7 +16,7 @@ layout: hero-page
 
 <div class="soft-media">
   <img class="soft-img-large"
-       src="{{ '/assets/img/software/gmod.jpg' | relative_url }}"
+       src="{{ '/assets/img/software/gmod.webp' | relative_url }}"
        alt="GMOD screenshot"
        loading="lazy"
        decoding="async">
@@ -26,7 +26,7 @@ layout: hero-page
 
 <div class="soft-media">
   <img class="soft-img-large"
-       src="{{ '/assets/img/software/mosquitoid.jpg' | relative_url }}"
+       src="{{ '/assets/img/software/mosquitoid.webp' | relative_url }}"
        alt="mosquitoID"
        loading="lazy"
        decoding="async">
@@ -48,7 +48,7 @@ layout: hero-page
 
 <div class="soft-media">
   <img class="soft-img-large"
-       src="{{ '/assets/img/software/trap.jpg' | relative_url }}"
+       src="{{ '/assets/img/software/trap.webp' | relative_url }}"
        alt="Trap Image"
        loading="lazy"
        decoding="async">
