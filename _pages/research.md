@@ -131,7 +131,7 @@ IMPORTANT:
 
   <div>
     <img class="proj-img"
-         src="{{ '/assets/img/research/mosquitoai-dashboards.png' | relative_url }}"
+         src="{{ '/assets/img/research/mosquitoai-dashboards.webp' | relative_url }}"
          alt="MosquitoAI dashboards"
          loading="lazy"
          decoding="async">
@@ -172,7 +172,7 @@ IMPORTANT:
 
   <div>
     <img class="proj-img"
-         src="{{ '/assets/img/research/smart-trap-edge-to-cloud.png' | relative_url }}"
+         src="{{ '/assets/img/research/smart-trap-edge-to-cloud.webp' | relative_url }}"
          alt="Edge-to-cloud smart mosquito trap"
          loading="lazy"
          decoding="async">
@@ -213,7 +213,7 @@ IMPORTANT:
 
   <div>
     <img class="proj-img"
-         src="{{ '/assets/img/research/valvular-heartsound.png' | relative_url }}"
+         src="{{ '/assets/img/research/valvular-heartsound.webp' | relative_url }}"
          alt="Valvular disease classification from heartsound"
          loading="lazy"
          decoding="async">
@@ -254,7 +254,7 @@ IMPORTANT:
 
   <div>
     <img class="proj-img"
-         src="{{ '/assets/img/research/hand-vein-authentication.png' | relative_url }}"
+         src="{{ '/assets/img/research/hand-vein-authentication.webp' | relative_url }}"
          alt="Dynamic ROI hand vein authentication"
          loading="lazy"
          decoding="async">
