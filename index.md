@@ -5,7 +5,6 @@ cover_image: /assets/img/cover.jpg
 profile_image: /assets/img/avatar.jpg
 hero_title: |
   Postdoctoral Scholar (AI Research & Engineering)
-  Bellini College of Artificial Intelligence, Cybersecurity and Computing
   University of South Florida (USF)
   Tampa, FL-33620, USA
   _________________________________
@@ -15,7 +14,8 @@ hero_subtitle: |
   • Trustworthy/Explainable AI
   • Edge-to-Cloud AI Systems
   • Public Health AI
-  • Citizen Science
+  
+  <span class="hl-bg">I’m actively exploring Applied Scientist / Machine Learning Engineer / Computer Vision Engineer / Edge AI roles</span>
 
 ---
 
