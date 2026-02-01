@@ -21,7 +21,7 @@ locale: "en-US"
 timezone: "America/New_York"
 
 author:
-  name: "Farhat Binte Azam"
+  name: "Farhat Binte Azam, Ph.D."
   avatar: "/assets/img/avatar.jpg"
   bio: "Postdoctoral Scholar (AI Research & Engineering), University of South Florida. Computer Vision • Trustworthy/Explainable AI • Edge-to-Cloud AI Systems • Public Health AI • Citizen Science."
   location: "Tampa, FL"
