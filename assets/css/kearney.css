@@ -22,7 +22,7 @@ body{
     var(--bg-url);
   background-size: cover;
   background-position: center;
-  background-attachment: scroll;
+  background-attachment: fixed;
   padding: 24px;
 }
 
