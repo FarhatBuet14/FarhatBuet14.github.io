@@ -34,7 +34,6 @@ I build **deployable computer-vision systems** for **real-world sensing and deci
 - <span class="accent"><strong>10+ publications</strong></span> in interdisciplinary venues spanning AI + biomedicine + entomology  
 - <span class="accent"><strong>1 U.S. patent application</strong></span> on computer-vision–based biological inference  
 - Field-facing collaborations with <span class="accent"><strong>public-health partners</strong></span> to translate models into real surveillance workflows  
-- Experience building complete pipelines: **data → model → evaluation → deployment → monitoring**
 
 ---
 
@@ -51,8 +50,8 @@ I build **deployable computer-vision systems** for **real-world sensing and deci
 
 ---
 
-## Collaboration
-I work comfortably across **AI/ML**, **software**, and **domain science** teams—translating needs into measurable objectives, iterating quickly, and keeping outputs usable for decision-makers.
+<!-- ## Collaboration
+I work comfortably across **AI/ML**, **software**, and **domain science** teams—translating needs into measurable objectives, iterating quickly, and keeping outputs usable for decision-makers. -->
 
 ---
 
