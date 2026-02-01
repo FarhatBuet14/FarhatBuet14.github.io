@@ -17,7 +17,9 @@ layout: hero-page
 <div class="soft-media">
   <img class="soft-img-large"
        src="{{ '/assets/img/software/gmod.jpg' | relative_url }}"
-       alt="GMOD screenshot">
+       alt="GMOD screenshot"
+       loading="lazy"
+       decoding="async">
 </div>
 
 <p><strong style="color:#33d17a;">mosquitoID.org</strong>: artificial intelligence (AI) tools for citizen scientists and mosquito control personnel to identify species and gonotrophic stage of larval and adult mosquitoes using smartphone photos, in collaboration with the Chellappan lab. (Nelson et al. 2024; Azam et al. 2023; Carney et al. 2022; Minakshi et al. 2020a,b). NSF grant #2014547; patents US 12,147,504 and pending. <a href="https://mosquitoid.org" target="_blank" rel="noopener">mosquitoID.org</a> (beta)</p>
@@ -25,7 +27,9 @@ layout: hero-page
 <div class="soft-media">
   <img class="soft-img-large"
        src="{{ '/assets/img/software/mosquitoid.jpg' | relative_url }}"
-       alt="mosquitoID">
+       alt="mosquitoID"
+       loading="lazy"
+       decoding="async">
 </div>
 
 <!-- <div class="soft-media-row">
@@ -45,7 +49,9 @@ layout: hero-page
 <div class="soft-media">
   <img class="soft-img-large"
        src="{{ '/assets/img/software/trap.jpg' | relative_url }}"
-       alt="Trap Image">
+       alt="Trap Image"
+       loading="lazy"
+       decoding="async">
 </div>
 
 <!-- <div class="soft-media-row">
