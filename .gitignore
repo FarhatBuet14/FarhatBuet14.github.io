@@ -4,3 +4,7 @@ _includes/.DS_Store
 assets/.DS_Store
 assets/img/.DS_Store
 assets/pdfjs/.DS_Store
+img_trash/*
+assets/.DS_Store
+assets/img/.DS_Store
+.DS_Store
