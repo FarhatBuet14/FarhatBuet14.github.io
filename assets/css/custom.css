@@ -145,7 +145,7 @@
   color: #000;                 /* black text */
   padding: 0 .25em;
   border-radius: .35em;
-  background: rgba(255, 215, 0, 0.18);
+  background: #ffd54a;
   font-weight: 700;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
