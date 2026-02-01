@@ -141,9 +141,13 @@
 .hl-blue  { color: #1d4ed8; font-weight: 700; }
 
 /* optional: background-style highlight */
-.hl-bg {
+.hl-bg{
+  color: #000;                 /* black text */
   padding: 0 .25em;
   border-radius: .35em;
-  background: rgba(230, 222, 4, 0.773);
+  background: rgba(255, 215, 0, 0.18);
   font-weight: 700;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
+
