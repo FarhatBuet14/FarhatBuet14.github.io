@@ -37,40 +37,11 @@ I build **deployable computer-vision systems** for **real-world sensing and deci
 
 ---
 
-## What I bring to industry roles
-**Applied ML & CV engineering** that ships:
-- End-to-end model development for **classification, detection, and segmentation**
-- **Evaluation under imbalance** and operational constraints (thresholding, calibrated decision rules, error analysis)
-- **Deployment-oriented thinking**: reproducible training, inference optimization, edge/cloud integration, and failure-mode monitoring
-- Clear documentation and stakeholder communication for cross-functional delivery
-
-**Typical responsibilities I’ve handled in research production settings**
-- Data + annotation pipeline design (taxonomy, QC rules, auditability)
-- Model iteration loops with ablations, metrics dashboards, and reporting
-- Explainability workflows (saliency/heatmaps, ROI reasoning, and model debugging support)
-- Collaboration with domain experts to define requirements and interpret outcomes
-
----
-
-## What I bring to R1 faculty / research roles
-**A coherent research agenda:** trustworthy computer vision for public-health sensing, spanning:
-- **Robust perception** in messy environments (occlusion, clutter, domain shift, device variation)
-- **Explainability + uncertainty** as tools for real deployment and human decision-making
-- **Edge-to-cloud systems** for sustained monitoring and real-time analytics
-- Interdisciplinary translation: aligning AI methods with public-health operational constraints
-
-**Mentoring & leadership (research practice)**
-- Designing problem statements, experiments, and milestone-driven project plans  
-- Writing and revising papers, figures, and experimental narratives  
-- Building reusable codebases and evaluation utilities that accelerate lab productivity  
-
----
-
 ## Technical strengths
 **Modeling**
 - CNNs + Transformers for vision, detection, and segmentation  
 - Handling imbalance: sampling strategies, loss design, threshold selection, and metric-driven tuning  
-- Interpretable ML: ROI-based analysis, saliency methods, and human-in-the-loop validation
+- Interpretable ML: ROI-based analysis, saliency methods
 
 **Engineering**
 - Python ML stacks (training, evaluation, visualization, packaging)  
