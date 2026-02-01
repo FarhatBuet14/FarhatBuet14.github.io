@@ -215,3 +215,9 @@ body{
 @media (max-width: 768px){
   .k-pdf{ min-height: 70vh; }
 }
+
+/* Huge boost for long pages */
+.section, .k-card, .soft-card {
+  content-visibility: auto;
+  contain-intrinsic-size: 800px; /* prevents layout jump */
+}
