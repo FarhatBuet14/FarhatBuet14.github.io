@@ -126,7 +126,7 @@ body{
   font-size: 13.5px;
   line-height: 1.45;
   color: var(--muted);
-  white-space: pre;        /* shows line breaks + keeps each bullet on one line */
+  white-space: pre-wrap;        /* shows line breaks + keeps each bullet on one line */
 }
 
 
