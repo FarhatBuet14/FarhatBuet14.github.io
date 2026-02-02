@@ -136,7 +136,7 @@ permalink: /research/
 
 ## Research
 
-I build deployable computer vision and edge-to-cloud AI systems for real-world sensing, emphasizing robustness, scalability, and reliability.
+I build deployable computer vision and edge-to-cloud AI systems for real-world sensing, emphasizing robustness, scalability, and reliability. My work bridges model development and field deployment—designing end-to-end pipelines from data capture and processing to inference, monitoring, and human-in-the-loop validation.
 
 ---
 
@@ -173,7 +173,7 @@ assets/img/research/
     </div>
 
     <div class="proj-links">
-      <a class="proj-link" href="https://github.com/YOUR-ORG/YOUR-REPO" target="_blank" rel="noopener" aria-label="GitHub repository">
+      <a class="proj-link" href="https://github.com/FarhatBuet14/mosquitoAI" target="_blank" rel="noopener" aria-label="GitHub repository">
         <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
           <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
           0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
@@ -221,7 +221,7 @@ assets/img/research/
     </div>
 
     <div class="proj-links">
-      <a class="proj-link" href="https://github.com/YOUR-ORG/YOUR-REPO" target="_blank" rel="noopener" aria-label="GitHub repository">
+      <a class="proj-link" href="https://github.com/FarhatBuet14/Smart-AI-Mosquito-Trap" target="_blank" rel="noopener" aria-label="GitHub repository">
         <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
           <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
           0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
@@ -269,7 +269,7 @@ assets/img/research/
     </div>
 
     <div class="proj-links">
-      <a class="proj-link" href="https://github.com/YOUR-ORG/YOUR-REPO" target="_blank" rel="noopener" aria-label="GitHub repository">
+      <a class="proj-link" href="https://github.com/FarhatBuet14/CepsNET" target="_blank" rel="noopener" aria-label="GitHub repository">
         <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
           <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
           0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
@@ -317,7 +317,7 @@ assets/img/research/
     </div>
 
     <div class="proj-links">
-      <a class="proj-link" href="https://github.com/YOUR-ORG/YOUR-REPO" target="_blank" rel="noopener" aria-label="GitHub repository">
+      <a class="proj-link" href="https://github.com/FarhatBuet14/VeinNET" target="_blank" rel="noopener" aria-label="GitHub repository">
         <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
           <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
           0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
