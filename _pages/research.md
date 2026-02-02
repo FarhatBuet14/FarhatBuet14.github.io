@@ -134,13 +134,19 @@ permalink: /research/
 
 <div class="research-wrap">
 
-## Research
+<div style="margin-bottom: 1rem;">
+  <h2 style="margin: 0 0 .4rem 0;">Research</h2>
+  <p style="margin: 0; opacity: .95; line-height: 1.6;">
+    I build deployable computer vision and edge-to-cloud AI systems for real-world sensing, emphasizing robustness,
+    scalability, and reliability. My work bridges model development and field deployment—designing end-to-end pipelines
+    from data capture and processing to inference, monitoring, and human-in-the-loop validation.
+  </p>
+</div>
 
-I build deployable computer vision and edge-to-cloud AI systems for real-world sensing, emphasizing robustness, scalability, and reliability. My work bridges model development and field deployment—designing end-to-end pipelines from data capture and processing to inference, monitoring, and human-in-the-loop validation.
+<hr style="border: 0; border-top: 1px solid rgba(255,255,255,.16); margin: 1.1rem 0;">
 
----
+<h2 style="margin: 0 0 .75rem 0;">Selected projects</h2>
 
-## Selected projects
 
 <!--
 Put your images here (WebP):
