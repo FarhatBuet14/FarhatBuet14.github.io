@@ -240,4 +240,107 @@ assets/img/research/
     <ul>
       <li>Designed an end-to-end pipeline from edge capture (multi-focus) to cloud storage, metadata logging, and model inference.</li>
       <li>Built automated workflows for extracting single-mosquito crops via localization and preparing training-ready datasets.</li>
-      <li>Enabled scalable monitoring through standardized capture formats, metadata schemas, and deployment-read
+      <li>Enabled scalable monitoring through standardized capture formats, metadata schemas, and deployment-ready processing.</li>
+      <li>Implemented robust evaluation to quantify performance under real-world conditions (clutter, occlusion, domain shift).</li>
+    </ul>
+  </div>
+
+</div>
+
+<!-- ================== PROJECT 3 ================== -->
+<div class="proj">
+
+  <div class="proj-top">
+
+    <div class="proj-media">
+      <img class="proj-img"
+           src="{{ '/assets/img/research/valvular-heartsound.webp' | relative_url }}"
+           alt="Valvular disease classification from heartsound data"
+           loading="lazy"
+           decoding="async">
+    </div>
+
+    <div>
+      <h3 class="proj-title">Valvular Disease Classification from Heartsound Data</h3>
+      <p class="proj-meta">Feb 2020 – Jul 2020 · Supervised by Dr. Taufiq Hasan · Bangladesh University of Engineering and Technology</p>
+      <p class="proj-desc">
+        Computer-aided analysis of heartsound recordings for reliable cardiac abnormality detection under noise and sensor variability.
+      </p>
+    </div>
+
+    <div class="proj-links">
+      <a class="proj-link" href="https://github.com/YOUR-ORG/YOUR-REPO" target="_blank" rel="noopener" aria-label="GitHub repository">
+        <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+          0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
+          -.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64
+          -.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18
+          1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56
+          .82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+          0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+      </a>
+    </div>
+
+  </div>
+
+  <div class="proj-bottom">
+    <ul>
+      <li>Developed preprocessing and feature pipelines for heartsound signals under real-world noise and acquisition variation.</li>
+      <li>Trained and benchmarked deep classifiers for abnormality detection across multiple datasets.</li>
+      <li>Focused on reliability in challenging conditions (additive noise, device variability, domain mismatch).</li>
+      <li>Reported strong screening-aligned performance with improvements in discrimination metrics.</li>
+    </ul>
+  </div>
+
+</div>
+
+<!-- ================== PROJECT 4 ================== -->
+<div class="proj">
+
+  <div class="proj-top">
+
+    <div class="proj-media">
+      <img class="proj-img"
+           src="{{ '/assets/img/research/hand-vein-authentication.webp' | relative_url }}"
+           alt="Dynamic ROI hand vein authentication"
+           loading="lazy"
+           decoding="async">
+    </div>
+
+    <div>
+      <h3 class="proj-title">Robust Human Authentication via Dynamic ROI from Hand Vein Images</h3>
+      <p class="proj-meta">May 2019 – Dec 2019 · Supervised by Dr. Mohammed Imam-ul Hassan Bhuiyan · Bangladesh University of Engineering and Technology</p>
+      <p class="proj-desc">
+        Vision-based biometric authentication using dynamic ROI extraction from dorsal/palm hand vein imagery with robustness to pose and acquisition variability.
+      </p>
+    </div>
+
+    <div class="proj-links">
+      <a class="proj-link" href="https://github.com/YOUR-ORG/YOUR-REPO" target="_blank" rel="noopener" aria-label="GitHub repository">
+        <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+          0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
+          -.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64
+          -.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18
+          1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56
+          .82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+          0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+      </a>
+    </div>
+
+  </div>
+
+  <div class="proj-bottom">
+    <ul>
+      <li>Implemented dynamic ROI extraction to reduce sensitivity to alignment, pose, and background variation.</li>
+      <li>Trained deep models for identity verification and evaluated robustness across acquisition conditions.</li>
+      <li>Built a streamlined pipeline suitable for integration into practical authentication workflows.</li>
+      <li>Emphasized reliability and security considerations relevant to real deployment environments.</li>
+    </ul>
+  </div>
+
+</div>
+
+</div>
