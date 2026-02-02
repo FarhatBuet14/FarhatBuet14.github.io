@@ -135,7 +135,6 @@ permalink: /research/
 <div class="research-wrap">
 
 <div style="margin-bottom: 1rem;">
-  <h2 style="margin: 0 0 .4rem 0;">Research</h2>
   <p style="margin: 0; opacity: .95; line-height: 1.6;">
     I build deployable computer vision and edge-to-cloud AI systems for real-world sensing, emphasizing robustness,
     scalability, and reliability. My work bridges model development and field deployment—designing end-to-end pipelines
