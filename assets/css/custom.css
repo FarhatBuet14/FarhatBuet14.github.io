@@ -233,3 +233,75 @@
   font-weight:700;
   text-decoration: underline;
 }
+
+/* ----------------------------
+   PRESS: color + typography fix
+   ---------------------------- */
+
+/* Make all text inside press cards white by default */
+.layout-hero-page .press-card,
+.layout-hero-page .press-card *{
+  color: rgba(255,255,255,0.92);
+}
+
+/* Titles stay blue (only the title) */
+.layout-hero-page .press-card .press-title{
+  color: #77b8ff;          /* your “professional blue” */
+  font-weight: 800;
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
+/* Kicker + description: white/neutral */
+.layout-hero-page .press-card .press-kicker{
+  color: rgba(255,255,255,0.72);
+  font-size: 0.85rem;
+  letter-spacing: 0.01em;
+}
+.layout-hero-page .press-card .press-desc{
+  color: rgba(255,255,255,0.90);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+/* "Read / Watch" link: white, slightly emphasized */
+.layout-hero-page .press-card .press-link{
+  color: rgba(255,255,255,0.92);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* Prevent the entire card from looking like a big blue hyperlink */
+.layout-hero-page .press-card{
+  text-decoration: none !important;
+}
+.layout-hero-page .press-card:hover .press-title{
+  text-decoration: underline;
+}
+
+
+
+/* ----------------------------
+   PRESS: smoother scrolling
+   ---------------------------- */
+
+/* Reduce expensive blur while scrolling */
+.layout-hero-page .press-card{
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  background: rgba(0,0,0,0.28); /* keep the glass look without blur */
+}
+
+/* Only apply blur on larger screens (optional) */
+@media (min-width: 1100px){
+  .layout-hero-page .press-card{
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+  }
+}
+
+/* Helpful for long pages: browser can skip off-screen rendering */
+.layout-hero-page .press-card{
+  content-visibility: auto;
+  contain-intrinsic-size: 260px;
+}
