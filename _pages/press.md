@@ -1,8 +1,9 @@
 ---
-layout: page
-title: Press
+title: ""
 permalink: /press/
+layout: hero-page
 ---
+
 
 ## Press
 
