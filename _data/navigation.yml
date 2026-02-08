@@ -11,8 +11,6 @@ main:
     url: /software/
   - title: "Videos"
     url: /videos/
-  - title: "Images"
-    url: /images/
   - title: "Press"
     url: /press/
   - title: "Contact"

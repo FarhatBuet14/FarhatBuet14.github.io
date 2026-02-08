@@ -1,6 +1,7 @@
 ---
 title: ""
 permalink: /images/
+published: false
 ---
 
 <style>
