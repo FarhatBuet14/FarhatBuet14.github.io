@@ -19,34 +19,40 @@
     const nav = document.querySelector('#k-mobile-nav');
     if (!btn || !nav) return;
   
-    function closeMenu(){
-      nav.hidden = true;
-      btn.setAttribute('aria-expanded', 'false');
+    function setOpen(open){
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      if (open){
+        nav.hidden = false;
+        nav.classList.add('is-open');
+      } else {
+        nav.classList.remove('is-open');
+        nav.hidden = true;
+      }
     }
+  
+    // start closed
+    setOpen(false);
   
     btn.addEventListener('click', function () {
       const isOpen = btn.getAttribute('aria-expanded') === 'true';
-      if (isOpen) {
-        closeMenu();
-      } else {
-        nav.hidden = false;
-        btn.setAttribute('aria-expanded', 'true');
-      }
+      setOpen(!isOpen);
     });
   
-    // Close when a link is clicked
+    // close after click on a link
     nav.addEventListener('click', function (e) {
-      if (e.target && e.target.tagName === 'A') closeMenu();
+      if (e.target && e.target.tagName === 'A') setOpen(false);
     });
   
-    // Close when tapping outside
+    // close when tapping outside
     document.addEventListener('click', function (e) {
-      if (nav.hidden) return;
+      const isOpen = btn.getAttribute('aria-expanded') === 'true';
+      if (!isOpen) return;
       if (btn.contains(e.target) || nav.contains(e.target)) return;
-      closeMenu();
+      setOpen(false);
     });
   })();
 </script>
+  
   
 <body class="{% if page.layout %}layout-{{ page.layout }}{% endif %}">
   {{ content }}
