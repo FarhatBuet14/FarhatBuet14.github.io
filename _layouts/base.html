@@ -14,7 +14,7 @@
 
 </head>
 <script>
-  (function () {
+  document.addEventListener('DOMContentLoaded', function () {
     const btn = document.querySelector('.k-menu-btn');
     const nav = document.querySelector('#k-mobile-nav');
     if (!btn || !nav) return;
@@ -33,7 +33,9 @@
     // start closed
     setOpen(false);
   
-    btn.addEventListener('click', function () {
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
       const isOpen = btn.getAttribute('aria-expanded') === 'true';
       setOpen(!isOpen);
     });
@@ -50,10 +52,8 @@
       if (btn.contains(e.target) || nav.contains(e.target)) return;
       setOpen(false);
     });
-  })();
-</script>
-  
-  
+  });
+</script>  
 <body class="{% if page.layout %}layout-{{ page.layout }}{% endif %}">
   {{ content }}
 </body>
