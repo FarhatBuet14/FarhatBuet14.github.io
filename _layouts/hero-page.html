@@ -5,6 +5,8 @@ layout: base
 <div class="k-bg" style="--bg-url: url('{{ bg | relative_url }}');">
   <header class="k-topnav">
     <div class="k-brand"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></div>
+  
+    <!-- Desktop nav (kept exactly as-is) -->
     <nav class="k-links">
       {% for item in site.data.navigation.main %}
         {% assign is_active = false %}
@@ -12,7 +14,20 @@ layout: base
         <a class="{% if is_active %}active{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a>{% unless forloop.last %}<span class="sep">|</span>{% endunless %}
       {% endfor %}
     </nav>
+  
+    <!-- Mobile menu button -->
+    <button class="k-menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="k-mobile-nav">
+      ☰
+    </button>
+  
+    <!-- Mobile menu (same links) -->
+    <nav id="k-mobile-nav" class="k-mobile-nav" hidden>
+      {% for item in site.data.navigation.main %}
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% endfor %}
+    </nav>
   </header>
+  
 
   <main class="k-center">
     <section class="k-card">
