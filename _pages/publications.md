@@ -10,10 +10,10 @@ permalink: /publications/
 
 ## Selected publications
 
+- **Artificial intelligence and community science as a solution for enhanced global surveillance of invasive malaria mosquito *Anopheles stephensi*: Madagascar case study.** *Insects*, 2025.  
 - **Classifying stages in the gonotrophic cycle of mosquitoes from images using computer vision techniques.** *Scientific Reports* (Nature Portfolio), 2023.  
-- **Cardiac anomaly detection considering an additive noise and convolutional distortion model of heart sound recordings.** *Artificial Intelligence in Medicine*, 2022.  
 - **Integrating global citizen science platforms to enable next-generation surveillance of invasive and vector mosquitoes.** *Insects*, 2022. *(Best Paper Award)*  
-- **Artificial intelligence and community science as a solution for enhanced global surveillance of invasive malaria mosquito *Anopheles stephensi*: Madagascar case study.** *Insects*, 2025.
+- **Cardiac anomaly detection considering an additive noise and convolutional distortion model of heart sound recordings.** *Artificial Intelligence in Medicine*, 2022.  
 
 ## Full list
 
