@@ -32,7 +32,7 @@ hero_subtitle: |
 
 ---
 
-I build **deployable computer-vision systems** for **real-world sensing and decision support**, with a focus on **trustworthy/understandable AI** and **end-to-end deployment** (edge capture → cloud analytics → stakeholder-facing tools). My work sits at the intersection of **machine learning**, **public health**, and **systems engineering**, where models are evaluated not only by accuracy but by **robustness, interpretability, and operational usability**.
+I build **deployable computer-vision systems** for **real-world sensing and decision support**, with a focus on **trustworthy/explainable AI** and **end-to-end deployment** (edge capture → cloud analytics → stakeholder-facing tools). My work sits at the intersection of **machine learning**, **public health**, and **systems engineering**, where models are evaluated not only by accuracy but by **robustness, interpretability, and operational usability**.
 
 ---
 
@@ -44,9 +44,9 @@ I build **deployable computer-vision systems** for **real-world sensing and deci
 ---
 
 ## Highlights
-- <span class="accent"><strong>10+ publications</strong></span> in interdisciplinary venues spanning AI + biomedicine + entomology  
-- <span class="accent"><strong>1 U.S. patent application</strong></span> on computer-vision–based biological inference  
-- Field-facing collaborations with <span class="accent"><strong>public-health partners</strong></span> to translate models into real surveillance workflows  
+- <span class="c-red"><strong>10+ publications</strong></span> in interdisciplinary venues spanning AI + biomedicine + entomology  
+- <span class="c-red"><strong>1 U.S. patent </strong></span> on computer-vision–based biological inference  
+- Field-facing collaborations with <span class="c-red"><strong>public-health partners</strong></span> to translate models into real surveillance workflows  
 
 ---
 
