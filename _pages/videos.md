@@ -1,6 +1,7 @@
 ---
 title: ""
 permalink: /videos/
+layout: hero-page
 ---
 
 <style>
