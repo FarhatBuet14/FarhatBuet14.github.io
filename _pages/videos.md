@@ -167,7 +167,6 @@ Hardware/software demos, algorithm visualizations, and project prototypes from m
 
 </div>
 
----
 
 <h2>Travel &amp; Life</h2>
 <p class="lead">
