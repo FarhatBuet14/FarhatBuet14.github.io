@@ -1,5 +1,5 @@
 ---
-title: "Videos"
+title: ""
 permalink: /videos/
 ---
 
@@ -68,12 +68,12 @@ permalink: /videos/
 
 <div class="v-wrap">
 
-<h2>Videos</h2>
+<!-- <h2>Videos</h2>
 <p class="lead">
 A curated set of research demos and project clips, plus a few travel moments—because I like exploring the world the same way I like exploring ideas.
 </p>
 
----
+--- -->
 
 <h2>Projects & Research</h2>
 <p class="lead">
