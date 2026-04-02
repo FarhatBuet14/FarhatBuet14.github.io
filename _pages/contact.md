@@ -13,9 +13,9 @@ permalink: /contact/
 
 <p class="contact-lead">
   If you’d like to collaborate (
-  <span class="c-red">AI for public-health sensing</span>,
-  <span class="c-green">trustworthy/explainable AI</span>,
-  <span class="c-yellow">edge-to-cloud systems</span>
+  AI for public-health sensing,
+  trustworthy/explainable AI,
+  edge-to-cloud systems
   ), feel free to reach out.
 </p>
 
