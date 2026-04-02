@@ -37,16 +37,16 @@ I build **deployable computer-vision systems** for **real-world sensing and deci
 ---
 
 ## Current focus areas
-- <span class="c-blue"><strong>MosquitoAI:</strong></span> AI-powered mosquito surveillance from heterogeneous imagery and field-deployed traps  
-- <span class="c-green"><strong>Dense-object localization:</strong></span> robust detection under occlusion, clutter, and domain shift  
-- <span class="c-yellow"><strong>Trustworthy AI:</strong></span> explainability, uncertainty-aware monitoring, and human-in-the-loop  
+- **MosquitoAI:** AI-powered mosquito surveillance from heterogeneous imagery and field-deployed traps  
+- **Dense-object localization:** robust detection under occlusion, clutter, and domain shift  
+- **Trustworthy AI:** explainability, uncertainty-aware monitoring, and human-in-the-loop  
 
 ---
 
 ## Highlights
-- <span class="c-red"><strong>10+ publications</strong></span> in interdisciplinary venues spanning AI + biomedicine + entomology  
-- <span class="c-red"><strong>1 U.S. patent </strong></span> on computer-vision–based biological inference  
-- Field-facing collaborations with <span class="c-red"><strong>public-health partners</strong></span> to translate models into real surveillance workflows  
+- **10+ publications** in interdisciplinary venues spanning AI + biomedicine + entomology  
+- **1 U.S. patent** on computer-vision–based biological inference  
+- Field-facing collaborations with **public-health partners** to translate models into real surveillance workflows  
 
 ---
 
